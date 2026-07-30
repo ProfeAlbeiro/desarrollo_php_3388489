@@ -1277,9 +1277,9 @@
 											},
 											"font": "Arial;13;1",
 											"parentStyle": true,
-											"left": 149,
+											"left": 93,
 											"top": 47,
-											"width": 153.09619140625,
+											"width": 255,
 											"height": 13,
 											"text": "Rol"
 										},
@@ -1315,9 +1315,9 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 144,
+									"left": 88,
 									"top": 40,
-									"width": 163.09619140625,
+									"width": 265,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGfpihQUAWD6Es="
@@ -1353,9 +1353,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 149,
+											"left": 93,
 											"top": 70,
-											"width": 153.09619140625,
+											"width": 255,
 											"height": 13,
 											"text": "-rolCode: int",
 											"horizontalAlignment": 0
@@ -1371,9 +1371,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 149,
+											"left": 93,
 											"top": 85,
-											"width": 153.09619140625,
+											"width": 255,
 											"height": 13,
 											"text": "-rolName: String",
 											"horizontalAlignment": 0
@@ -1381,9 +1381,9 @@
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 144,
+									"left": 88,
 									"top": 65,
-									"width": 163.09619140625,
+									"width": 265,
 									"height": 38
 								},
 								{
@@ -1407,9 +1407,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 149,
+											"left": 93,
 											"top": 108,
-											"width": 153.09619140625,
+											"width": 255,
 											"height": 13,
 											"text": "+rolRegistrar(): void",
 											"horizontalAlignment": 0
@@ -1425,11 +1425,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 149,
+											"left": 93,
 											"top": 123,
-											"width": 153.09619140625,
+											"width": 255,
 											"height": 13,
-											"text": "+rolConsultarTodos(): void",
+											"text": "+rolConsultarTodos(): Array obj rolList",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1443,11 +1443,11 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 149,
+											"left": 93,
 											"top": 138,
-											"width": 153.09619140625,
+											"width": 255,
 											"height": 13,
-											"text": "+rolConsultarUno(): void",
+											"text": "+rolConsultarUno(int rolCode): obj rol",
 											"horizontalAlignment": 0
 										},
 										{
@@ -1461,9 +1461,9 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 149,
+											"left": 93,
 											"top": 153,
-											"width": 153.09619140625,
+											"width": 255,
 											"height": 13,
 											"text": "+rolActualizar(): void",
 											"horizontalAlignment": 0
@@ -1479,19 +1479,19 @@
 											},
 											"font": "Arial;13;0",
 											"parentStyle": true,
-											"left": 149,
+											"left": 93,
 											"top": 168,
-											"width": 153.09619140625,
+											"width": 255,
 											"height": 13,
-											"text": "+rolEliminar(): void",
+											"text": "+rolEliminar(int rolCode): void",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"parentStyle": true,
-									"left": 144,
+									"left": 88,
 									"top": 103,
-									"width": 163.09619140625,
+									"width": 265,
 									"height": 83
 								},
 								{
@@ -1532,10 +1532,10 @@
 							"font": "Arial;13;0",
 							"parentStyle": false,
 							"containerChangeable": true,
-							"left": 144,
+							"left": 88,
 							"top": 40,
-							"width": 162.09619140625,
-							"height": 146,
+							"width": 264,
+							"height": 176,
 							"nameCompartment": {
 								"$ref": "AAAAAAGfpihQUAWCGOk="
 							},
@@ -1617,7 +1617,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGfpm+CzQXH3BQ="
 									},
-									"type": "void",
+									"type": "Array obj rolList",
 									"direction": "return"
 								}
 							]
@@ -1636,8 +1636,16 @@
 									"_parent": {
 										"$ref": "AAAAAAGfpnAWigXQSN8="
 									},
-									"type": "void",
+									"type": "obj rol",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfsEhvtK0DI6A=",
+									"_parent": {
+										"$ref": "AAAAAAGfpnAWigXQSN8="
+									},
+									"name": "int rolCode"
 								}
 							]
 						},
@@ -1676,6 +1684,15 @@
 									},
 									"type": "void",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGfsEkdD60HbGE=",
+									"_parent": {
+										"$ref": "AAAAAAGfpnBz3wXiKYg="
+									},
+									"name": "int rolCode",
+									"type": ""
 								}
 							]
 						}
