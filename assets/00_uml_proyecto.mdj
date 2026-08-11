@@ -6009,6 +6009,19 @@
 							"headQualifiersCompartment": {
 								"$ref": "AAAAAAGf7kRRNuatFMM="
 							}
+						},
+						{
+							"_type": "UMLTextBoxView",
+							"_id": "AAAAAAGf7mlHW5LqjvM=",
+							"_parent": {
+								"$ref": "AAAAAAGf7ha9Wcj+BSY="
+							},
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"top": 552,
+							"width": 336,
+							"height": 38,
+							"text": "RETO: Agregar el/los Nodo(s) para agregar la App Móvil"
 						}
 					]
 				},
